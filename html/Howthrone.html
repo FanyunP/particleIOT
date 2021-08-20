@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/myStyle.css">
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+<head>
+	<title>Particle IO Control Panel</title>
+</head>
+<body>
+	<!-- <nav id = "slide-menu">
+		<ul>
+			<li class = "main">Main</li>
+			<li class = "login">Login</li>
+		</ul>
+	</nav> -->
+
+	<!-- Content panel -->
+	<div id ="content">
+		<div class="device" id = "devices">
+			<div class="info">
+				<div class="basic"><p class="title">Device Name: <b class="name"></b></p></div>
+				<div class="basic"><p class="title">Device Online: <b class="online"></b></p></div>
+				<div class="basic"><p class="title">Device Status1: <b class="var1"></b></p></div>
+				<div class="basic"><p class="title">Device Status2: <b class="var2"></b></p></div>
+				<div class="basic">
+					<button type="changeButton" onclick="GetVar(0,0)">Refresh</button>
+				</div>
+				<div class="basic">
+					<button type="changeButton" onclick="callAction(0,0,0)">Trun on</button>
+					<button type="changeButton" onclick="callAction(0,0,1)">Trun off</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particle-api-js/7.3.0/particle.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particle-api-js@8/dist/particle.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../js/database.js"></script>
+<script src="../js/myscript.js"></script>
+</html>

@@ -1,0 +1,29 @@
+body{
+	background:#f7e8e8;
+}
+
+.device{
+	background:#86e29b;
+	margin: 5vw auto;
+	display: none;
+	float: middle;
+	width: 50%;
+	height: 15vw;
+	border-radius: 1vw;
+}
+
+.info{
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+
+.basic{
+	width: 50%;
+	height: 40%;
+	float:left;
+	/*text-align: center;*/
+	/*background-color:white;*/
+}
+
